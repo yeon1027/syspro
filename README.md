@@ -1,3 +1,3 @@
-jeongmyeongn Shin
+jeongmyeong Shin
 11223344
 
