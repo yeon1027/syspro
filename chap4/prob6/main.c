@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "student.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     struct student rec;
     FILE *fp;
@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     }
 
     fp = fopen(argv[1], "wb");
+
     if (fp == NULL) {
         fprintf(stderr, "File open error\n");
         exit(1);
